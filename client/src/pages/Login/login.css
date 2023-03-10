@@ -1,0 +1,63 @@
+.Login {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+  justify-content: space-around;
+  padding: 1% 0.5%;
+  width: 60%;
+}
+
+.Login header {
+  align-items: center;
+  background-color: #ffaa01;
+  border-radius: 50px 50px 200px 50px;
+  display: flex;
+  height: 10%;
+  justify-content: start;
+  padding: 0% 2%;
+  width: 70%;
+}
+
+.Login header h1 {
+  font-size: 70%;
+  text-align: start;
+}
+
+.Login form {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  height: 60%;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.RegisterLoginButton {
+  font-size: 40%;
+  height: 10%;
+  text-align: center;
+  width: 40%;
+}
+
+@media screen and (max-width: 800px) {
+  .Login {
+    width: 80%;
+  }
+
+  .Login header {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Login,
+  .Login form {
+    width: 100%;
+  }
+
+  .RegisterLoginButton {
+    width: 60%;
+  }
+}

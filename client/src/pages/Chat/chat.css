@@ -1,0 +1,135 @@
+.Chat {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+  justify-content: space-between;
+  padding: 1% 0.5%;
+  width: 80%;
+}
+
+.BoxButtons {
+  align-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  height: 8%;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.BoxButtons button {
+  width: 30%;
+}
+
+.BoxChat {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  height: 90%;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.BoxChat header {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  height: 15%;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.BoxChat header h1 {
+  background-color: #ffaa01;
+  border-radius: 50px 50px 200px 50px;
+  display: flex;
+  justify-content: start;
+  padding: 0% 2%;
+  width: 50%;
+}
+
+.BoxChat header img {
+  border: 5px solid #463f3a;
+  border-radius: 100px;
+  width: 15%;
+}
+
+.BoxMessage {
+  border: 10px double #027a9f;
+  border-radius: 50px 50px 200px 50px;
+  height: 60%;
+  overflow-y: scroll;
+  padding: 1%;
+  width: 100%;
+}
+
+.UserMessage {
+  border: 2px solid #463f3a;
+  border-radius: 50px 50px 200px 50px;
+  font-size: 30%;
+  height: 20%;
+  margin-bottom: 1%;
+  width: 90%;
+}
+
+.MessageContent {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  margin: 0% 1%;
+}
+
+.MessageContent p,
+.MessageDate em {
+  margin: 0% 1%;
+}
+
+.MessageDate {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  margin: 0% 3%;
+}
+
+.BoxChat form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  height: 15%;
+  width: 80%;
+}
+
+.BoxChat form input {
+  height: 50%;
+  width: 70%;
+}
+
+.BoxChat form button {
+  height: 50%;
+  width: 10%;
+}
+
+@media screen and (max-width: 800px) {
+  .BoxButtons,
+  .BoxChat form,
+  .Chat {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .BoxChat header {
+    width: 100%;
+  }
+
+  .BoxChat header h1 {
+    width: 80%;
+  }
+
+  .BoxMessage {
+    border: 5px double #027a9f;
+    border-radius: 25px 25px 100px 25px;
+  }
+}

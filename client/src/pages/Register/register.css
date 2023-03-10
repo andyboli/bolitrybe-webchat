@@ -1,0 +1,63 @@
+.Register {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+  justify-content: space-around;
+  padding: 1% 0.5%;
+  width: 60%;
+}
+
+.Register header {
+  align-items: center;
+  background-color: #ffaa01;
+  border-radius: 50px 50px 200px 50px;
+  display: flex;
+  height: 10%;
+  justify-content: start;
+  padding: 0% 2%;
+  width: 70%;
+}
+
+.Register header h1 {
+  font-size: 70%;
+  text-align: start;
+}
+
+.Register form {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  height: 60%;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.Register button {
+  font-size: 40%;
+  height: 15%;
+  text-align: center;
+  width: 40%;
+}
+
+.Register .FormGroup {
+  height: 20%;
+}
+
+@media screen and (max-width: 800px) {
+  .Register {
+    width: 80%;
+  }
+
+  .Register header {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Register,
+  .Register form {
+    width: 100%;
+  }
+}

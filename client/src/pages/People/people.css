@@ -1,0 +1,181 @@
+.People {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+  justify-content: space-around;
+  padding: 1% 0.5%;
+  width: 80%;
+}
+
+.AboutMe {
+  align-items: center;
+  border: 5px solid#027a9f;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 50%;
+  height: 25%;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.AboutMe img {
+  border: 5px solid#027a9f;
+  border-radius: 100px;
+  width: 15%;
+}
+
+.AboutMe div {
+  width: 50%;
+}
+
+.AboutMe button {
+  width: 20%;
+}
+
+.BoxUsers {
+  align-items: center;
+  border: 10px dotted #ffaa01;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 50%;
+  height: 60%;
+  overflow-y: scroll;
+  padding: 1%;
+  width: 90%;
+}
+
+.BoxUsers button {
+  background-color: transparent;
+  border: 0;
+  margin: 0.5%;
+  width: 18%;
+}
+
+.BoxUsers button:hover > img {
+  border: 7px solid#027a9f;
+  box-shadow: #027a9f 0 0 100px;
+}
+
+.BoxUsers button:hover > p {
+  border: 5px solid#027a9f;
+  background-color: #027a9f;
+}
+
+.BoxUsers div > div {
+  position: absolute;
+}
+
+.online > img {
+  border: 5px solid #28a745;
+  border-radius: 100px;
+  width: 80%;
+}
+
+.online > p {
+  border: 2px solid#28a745;
+  border-radius: 50px;
+  font-size: 70%;
+}
+
+.offline > img {
+  border: 5px solid #dc3545;
+  border-radius: 100px;
+  width: 80%;
+}
+
+.offline > p {
+  border: 2px solid#dc3545;
+  border-radius: 50px;
+  font-size: 70%;
+}
+
+.section-me {
+  align-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 5px solid #027a9f;
+  justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  height: 15%;
+  margin: 1% 0%;
+  padding: 0.5%;
+  width: 60%;
+}
+
+.boxPeople .boxButtons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.section-me div {
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0% 3%;
+  width: 60%;
+}
+
+.section-me div p {
+  font-size: 30%;
+}
+
+.avatar {
+  width: 12%;
+  border-radius: 100px;
+}
+
+.section-users {
+  align-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  border: 10px dotted #ffaa01;
+  justify-content: space-around;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 30%;
+  height: 70%;
+  margin: 1% 0%;
+  overflow-y: scroll;
+  padding: 0.5%;
+  width: 80%;
+}
+
+.section-users div {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0.2% 1%;
+
+  width: 40%;
+}
+
+.status {
+  position: relative;
+}
+
+.bolichat-button {
+  width: 40%;
+}
+
+@media screen and (max-width: 800px) {
+  .People {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Login,
+  .Login form {
+    width: 100%;
+  }
+
+  .RegisterLoginButton {
+    width: 60%;
+  }
+}

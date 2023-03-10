@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;1,400;1,700&display=swap');
+
+/*
+font-family: 'Bitter', serif;
+
+Color Pallet
+
+Blue: #027A9F
+Green: #12B296
+Yellow: #FFAA01
+Neon: #E1EF7E
+Purple: #502F4C
+Black: #000000
+Pink: #DF7373
+
+   <div style={{ width: '30%', height: '60%', backgroundColor: 'blue' }}></div>
+      <div style={{ width: '40%', height: '20%', backgroundColor: 'pink' }}></div>
+      <div style={{ width: '50%', height: '30%', backgroundColor: 'purple' }}></div>
+      <div style={{ width: '20%', height: '30%', backgroundColor: 'red' }}></div>
+*/
+
+#root {
+  align-items: center;
+  background-color: #f4f3ee;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column wrap;
+  font-family: 'Bitter', serif;
+  font-size: 5vw;
+  height: 100vh;
+  justify-content: start;
+}
+
+@media screen and (max-width: 800px) {
+  #root {
+    font-size: 6vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #root {
+    font-size: 9vw;
+  }
+}

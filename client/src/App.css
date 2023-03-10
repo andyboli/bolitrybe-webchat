@@ -1,0 +1,167 @@
+/* .box90 {
+  width: 90%;
+}
+
+.box80 {
+  width: 80%;
+}
+
+.box70 {
+  width: 70%;
+}
+
+.box60 {
+  width: 60%;
+}
+
+.box50 {
+  width: 50%;
+}
+
+.box40 {
+  width: 40%;
+}
+
+.box30 {
+  width: 30%;
+}
+
+.box20 {
+  width: 20%;
+}
+
+.box10 {
+  width: 10%;
+}
+
+.boxAround {
+  align-content: space-around;
+  align-items: space-around;
+  justify-content: space-around;
+}
+
+.boxBetween {
+  align-content: center;
+  align-items: space-around;
+  justify-content: space-between;
+}
+
+.boxCenter {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxColorBlue {
+  background-color: #17a2b8;
+  border-radius: 20px;
+}
+
+.boxColorGreen {
+  background-color: #12b296;
+  border-radius: 30px;
+}
+
+.boxColorPink {
+  background-color: #df7373;
+  border-radius: 30px;
+}
+
+.boxColorYellow {
+  background-color: #ffaa01;
+  border-radius: 30px 20px 100px 10px;
+}
+
+.flexColumnAround {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+
+.flexColumnBetween {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+.flexColumnCenter {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.flexRowAround {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+h1 {
+  font-size: 0.8em;
+}
+
+.H100 {
+  height: 100%;
+}
+
+.H90 {
+  height: 90%;
+}
+
+.H80 {
+  height: 80%;
+}
+
+.H70 {
+  height: 70%;
+}
+
+.H60 {
+  height: 60%;
+}
+
+.H50 {
+  height: 50%;
+}
+
+.H40 {
+  height: 40%;
+}
+
+.H30 {
+  height: 30%;
+}
+
+.H20 {
+  height: 20%;
+}
+
+.H10 {
+  height: 10%;
+}
+
+.ref > p {
+  font-size: 0.2em;
+}
+
+.ref > input {
+  width: 60%;
+}
+
+.spaceThin {
+  margin: 1% 0.5%;
+  padding: 1% 0.5%;
+}
+
+.spaceLarge {
+  margin: 2% 1%;
+  padding: 1.5% 1%;
+} */

@@ -1,0 +1,49 @@
+.boxUser {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  height: 90%;
+  margin: 1% 0%;
+  padding: 0.5%;
+  width: 60%;
+}
+
+.boxUser button {
+  width: 40%;
+}
+
+.boxUser section {
+  height: 80%;
+  width: 95%;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.boxUser form {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  height: 60%;
+  margin-top: 3%;
+  width: 45%;
+}
+
+.boxUser section input {
+  width: 80%;
+}
+
+.image-form {
+  font-size: 30%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  height: 40%;
+}
